@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.page {
+  margin: 50px 30px;
+}
+.adding {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.input {
+  width: 50%;
+  border: 1px solid teal;
+  padding: 10px 15px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.btn {
+  margin-top: 5px;
+  margin-right: 10px;
+  align-self: flex-start;
+  padding: 10px 15px;
+  background: none;
+  color: teal;
+  border: 1px solid teal;
+  font-size: 16px;
+}
+.btn-del {
+  font-size: 14px;
+}
+.wrapper-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.list-row, .list-thead {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  border-bottom: 1px solid teal;
+}
+.cell-adress {
+  padding: 15px;
+  width: 60%;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin-right: 20px;
+}
+.cell {
+  padding: 15px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
